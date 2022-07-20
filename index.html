@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CITE | BSIT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  
+        
+
+
+    <header class="main-header">
+        <div class="header-top">
+           
+            
+            
+        </div>
+        <div class="header-content">
+            <h1> CYBERSECURITY</h1>
+            <p></p>
+            <a href="#about" class="btn btn-x1">
+                About
+                <i class="fas fa-chevron-right fa-fw"></i>
+
+            </a>
+        </div>
+
+    </header>
+
+    <section class="gallery">
+        
+        <div class="gallery-container">
+            <a href="#" target="_blank">
+                <div class="img-container">
+                    <div class="slideshow-container">
+                        <div class="mySlides fade">
+                    <img src="images/play.gif" alt="snail1">
+                </div>
+
+                <div class="mySlides fade">
+  
+                    <img src="images/play.gif" style="width:100%">
+                  
+                  </div>
+                  
+                  
+
+           
+
+
+                  
+                  </div>
+                  <br>
+                  
+                  <div style="text-align:center">
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                    <span class="dot"></span>
+                    <span class="dot"></span> 
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                  </div>
+                  
+                 <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+                    <p class="text-container">Play Video</p>
+                </div>
+            </a>
+            <a href="threats.html" >
+                <div class="img-container">
+                    <img src="images/pexels-tima-miroshnichenko-5380665.jpg" alt="snail1">
+                    <p class="text-container">Threats in Cybersecurity</p>
+                </div>
+            </a>
+            
+            <a href="strategies.html"  >
+                <div class="img-container">
+                    <img src="images/cybersec.jpg" alt="snail1">
+                    <p class="text-container">Cybersecurity Management Strategies</p>
+                </div>
+            </a>
+
+        </div>
+    
+
+    </section>
+
+    <section class="about-section" id="about">
+        <div class="overlay">
+            <div class="about-section-inner">
+                <h2>What is Cybersecuity?</h2>
+                <h2>The state of being protected against the criminal or unauthorized use of electronic data, or the measures taken to achieve this.</h2>
+                <p>A strong cybersecurity strategy can provide a good security posture against malicious attacks designed to access, alter, delete, destroy or extort an organization's or user's systems and sensitive data. Cybersecurity is also instrumental in preventing attacks that aim to disable or disrupt a system's or device's operations.</p>
+            </div>
+        </div>
+    </section>
+    
+    
+</body>
+</html>
